@@ -1,3 +1,3 @@
 # derp
 
-A CMS for green eggs and ham.
+Derp is a content management system (CMS), based on the NodeJS server.
