@@ -1,0 +1,29 @@
+{
+    "name": "derp",
+    "version": "0.0.1",
+    "description": "Derp is a content management system (CMS), based on the NodeJS server.",
+    "main": "./lib",
+    "author" : "Richard S Allinson <npm@mountainmansoftware.com>",
+    "engines" : {
+        "node" : ">=0.6.0 < 0.9.0"
+    },
+    "bin": {
+        "ash": "bin/derp"
+    },
+    "scripts": {
+        "test": "mocha --recursive ./tests"
+    },
+    "dependencies" : {
+        "ash": "*",
+        "commander": "*",
+        "requirejs": "*"
+    },
+    "devDependencies": {
+        "mocha": ">=1.3.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/capecodehq/derp.git"
+    },
+    "license": "MIT"
+}
