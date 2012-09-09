@@ -23,4 +23,16 @@
 
 "use strict";
 
-require(["lib/adapters/dom"]);
+require(["lib/adapters/dom", "lib/helpers/router"], function (dom, router) {
+	
+	router.get("/", {
+        module: "modules/cms/ctrl",
+        method: "index"
+    });
+
+    router.get("/admin", {
+        module: "modules/cms/ctrl",
+        method: "admin"
+    });
+
+});
