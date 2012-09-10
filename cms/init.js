@@ -24,15 +24,20 @@
 "use strict";
 
 require(["lib/adapters/dom", "lib/helpers/router"], function (dom, router) {
-	
+
 	router.get("/", {
-        module: "modules/cms/ctrl",
+        module: "modules/cms-site/ctrl",
         method: "index"
     });
 
+	router.get("/admin*", function (req, res, next) {
+        console.log("Required logon");
+        next();
+    });
+
     router.get("/admin", {
-        module: "modules/cms/ctrl",
-        method: "admin"
+        module: "modules/cms-admin/ctrl",
+        method: "index"
     });
 
 });
