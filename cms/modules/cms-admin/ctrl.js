@@ -12,12 +12,23 @@ define(["lib/utils"], function (utils) {
 		theme: function (api) {
 
 			// Get theme from config
-			var meta = {
-					tmpl: {
-						module: "modules/theme-admin/tmpls",
-						name: "index"
-					}
-				};
+			var meta,
+				layout;
+
+			meta = {
+				tmpl: {
+					module: "modules/theme-admin/tmpls",
+					name: "index"
+				}
+			};
+
+			layout = {
+				adminbar: null,
+				header: null,
+				main: null,
+				menu: null,
+				footer: null
+			};
 
 			api.done({}, meta);
 		}
