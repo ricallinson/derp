@@ -7,6 +7,8 @@ session: "your secret here"
 
 public:
   tmpl: "derp-skin-default/views/index"
+  data:
+    title: "Derp CMS"
   slots:
     sidebar:
       module: "derp-posts/ctr"
