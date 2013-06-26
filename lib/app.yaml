@@ -8,6 +8,9 @@ session: "your secret here"
 public:
   tmpl: "derp-skin-default/views/index"
   slots:
+    sidebar:
+      module: "derp-posts/ctr"
+      action: "menu"
     body:
-      module: "derp-public/ctr"
-      action: "index"
+      module: "derp-posts/ctr"
+      action: "posts"
