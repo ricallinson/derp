@@ -1,4 +1,14 @@
+# App Config
+
 port: 3000
 loglevel: "dev"
 cookie: "your secret here"
 session: "your secret here"
+
+public:
+  skin: "derp-skin-public"
+  map:
+    tmpl: "index"
+    body:
+      module: "derp-public"
+      action: "index"

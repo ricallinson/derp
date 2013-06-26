@@ -1,0 +1,9 @@
+{
+    "name": "derp-example",
+    "version": "0.0.1",
+    "description": "",
+    "dependencies" : {
+        "derp-admin": "*",
+        "derp-public": "*"
+    }
+}
