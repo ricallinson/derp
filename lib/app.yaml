@@ -6,9 +6,8 @@ cookie: "your secret here"
 session: "your secret here"
 
 public:
-  skin: "derp-skin-public"
-  map:
-    tmpl: "index"
+  tmpl: "derp-skin-default/views/index"
+  slots:
     body:
-      module: "derp-public"
+      module: "derp-public/ctr"
       action: "index"
