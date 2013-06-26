@@ -16,3 +16,15 @@ public:
     body:
       module: "derp-posts/ctr"
       action: "posts"
+
+admin:
+  tmpl: "derp-skin-default/views/index"
+  data:
+    title: "Derp CMS Admin"
+  slots:
+    sidebar:
+      module: "derp-admin/ctr"
+      action: "menu"
+    body:
+      module: "derp-posts/ctr"
+      action: "admin"
