@@ -20,7 +20,9 @@
         "handlebars": "*",
         "commander": "*",
         "js-yaml": "*",
-        "passport": "*"
+        "passport": "*",
+        "passport-local": "*",
+        "connect-flash": "*"
     },
     "devDependencies": {
         "mocha": "*",
