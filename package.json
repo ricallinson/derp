@@ -22,7 +22,8 @@
         "js-yaml": "*",
         "passport": "*",
         "passport-local": "*",
-        "connect-flash": "*"
+        "connect-flash": "*",
+        "confdir": "git://github.com/ricallinson/confdir.git#master"
     },
     "devDependencies": {
         "mocha": "*",
